@@ -1,4 +1,4 @@
-package br.com.treinaweb.repositories;
+/*package br.com.treinaweb.repositories;
 
 import br.com.treinaweb.model.Produto;
 
@@ -38,4 +38,4 @@ public class ProdutoRepository {
             return generateId(possible + 1);
         return possible;
     }
-}
+}*/
