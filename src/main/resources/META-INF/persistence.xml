@@ -7,8 +7,21 @@
     <persistence-unit name="CrudPU" transaction-type="JTA">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <jta-data-source>java:jboss/datasources/CrudDS</jta-data-source>
+        <!-- entidade mapeada -->
+        <class>br.com.treinaweb.model.Produto</class>
         <properties>
+            <!-- dados da conexao -->
+            <property name="javax.persistence.jdbc.driver"
+                      value="com.postgres.jdbc.Driver" />
+            <property name="javax.persistence.jdbc.url"
+                      value="jdbc:postgresql://localhost:5432/postgres" />
+            <property name="javax.persistence.jdbc.user"
+                      value="postgres" />
+            <property name="javax.persistence.jdbc.password"
+                      value="12345678" />
 
+            <!--  atualiza o banco, gera as tabelas se for preciso -->
+            <property name="hibernate.hbm2ddl.auto" value="update" />
             <!-- JPA Properties -->
             <property name="javax.persistence.schema-generation.database.action" value="none"/>
 

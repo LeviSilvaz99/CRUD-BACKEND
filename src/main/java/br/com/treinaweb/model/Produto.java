@@ -6,9 +6,10 @@ import javax.validation.constraints.NotNull;
 import javax.persistence.*;
 import java.util.Objects;
 
-
+//a entity indica que os objetos dessa classe se tornam persistiveis
 @Entity
 public class Produto {
+
     @Id
     @JsonProperty("id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,7 +22,7 @@ public class Produto {
 
     @JsonProperty("price")
     @Column(name="price")
-    @NotNull(message = "{price.price.notnull}")
+    @NotNull(message = "{produto.price.notnull}")
     private int price;
 
     public Long getId() {
@@ -35,20 +36,22 @@ public class Produto {
         Produto produto = (Produto) o;
         return Objects.equals(id, produto.id) &&
                 Objects.equals(name, produto.name) &&
-                Objects.equals(produto, produto.price);
+                Objects.equals(price, produto.price);
     }
     @Override
     public int hashCode() {
         return Objects.hash(id, name, price);
     }
+
     @Override
     public String toString() {
-        return "Todo{" +
+        return "Crud{" +
                 "id=" + id +
-                ", nome='" + name + '\'' +
-                ", done=" + price +
+                ", name='" + name + '\'' +
+                ", price=" + price +
                 '}';
     }
+
 }
 
 /*

@@ -8,13 +8,17 @@ import javax.persistence.PersistenceContext;
 
 @RequestScoped
 public class EntityManagerProducer {
+
     @PersistenceContext
     private EntityManager entityManager;
 
     @Produces
     @RequestScoped
+    //Entity manager vai inserir, atualizar e deletar uma entidade
     public EntityManager producerEntityManager() {
         return entityManager;
     }
+
+
 
 }

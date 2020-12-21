@@ -1,0 +1,7 @@
+br/com/treinaweb/producer/ObjectMapperContextResolver.class
+br/com/treinaweb/api/ProdutoResource.class
+br/com/treinaweb/repository/ProdutoRepository.class
+br/com/treinaweb/producer/EntityManagerProducer.class
+br/com/treinaweb/model/Produto.class
+br/com/treinaweb/producer/ObjectMapperJacksonProducer.class
+br/com/treinaweb/service/ProdutoService.class

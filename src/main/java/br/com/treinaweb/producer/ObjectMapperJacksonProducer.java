@@ -18,6 +18,7 @@ import static com.fasterxml.jackson.databind.SerializationFeature.*;
 
 @ApplicationScoped
 public class ObjectMapperJacksonProducer {
+
     @Produces
     @Singleton
     public ObjectMapper createObjectMapper() {

@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="jaxrsexample-1.0-SNAPSHOT.war">
+    <root id="archive" name="core-module-1.0.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="jaxrsexample:war exploded" />
     </root>
   </artifact>

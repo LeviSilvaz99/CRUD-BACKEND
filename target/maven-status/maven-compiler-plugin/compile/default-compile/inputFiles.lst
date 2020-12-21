@@ -1,0 +1,7 @@
+/home/levi/Área de Trabalho/jaxrsexample/src/main/java/br/com/treinaweb/api/ProdutoResource.java
+/home/levi/Área de Trabalho/jaxrsexample/src/main/java/br/com/treinaweb/producer/EntityManagerProducer.java
+/home/levi/Área de Trabalho/jaxrsexample/src/main/java/br/com/treinaweb/service/ProdutoService.java
+/home/levi/Área de Trabalho/jaxrsexample/src/main/java/br/com/treinaweb/producer/ObjectMapperJacksonProducer.java
+/home/levi/Área de Trabalho/jaxrsexample/src/main/java/br/com/treinaweb/repository/ProdutoRepository.java
+/home/levi/Área de Trabalho/jaxrsexample/src/main/java/br/com/treinaweb/model/Produto.java
+/home/levi/Área de Trabalho/jaxrsexample/src/main/java/br/com/treinaweb/producer/ObjectMapperContextResolver.java
